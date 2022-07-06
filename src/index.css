@@ -7,7 +7,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  color: red;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.dark {
+  background: #1d1f21;
+  color: #f8f8f8;
+}
+
+.light {
+  background: #f8f8f8;
+  color: #1d1f21;
+}
+
+.active {
+  background-color: tomato;
 }
